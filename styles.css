@@ -1,7 +1,7 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(to bottom right, #4facfe, #00f2fe);
-    color: #333;
+    font-family: 'Comic Sans MS', sans-serif;
+    background: linear-gradient(to bottom right, #f39c12, #e74c3c);
+    color: #2c3e50;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,25 +13,27 @@ body {
     text-align: center;
     padding: 20px;
     background: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
+    color: #8e44ad;
 }
 
 p {
     font-size: 1.5rem;
     margin: 20px 0;
+    font-style: italic;
 }
 
 button {
     padding: 10px 20px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #fff;
-    background: #007BFF;
+    background: #27ae60;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -39,5 +41,5 @@ button {
 }
 
 button:hover {
-    background: #0056b3;
+    background: #2ecc71;
 }
